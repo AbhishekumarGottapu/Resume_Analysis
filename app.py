@@ -17,6 +17,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load trained Word2Vec model
 model = gensim.models.Word2Vec.load("resume_word2vec.model")
 
+def handler(environ, start_response):
+    return app(environ, start_response)
 # Function to preprocess text
 def preprocess(text):
     nltk.download('stopwords')
