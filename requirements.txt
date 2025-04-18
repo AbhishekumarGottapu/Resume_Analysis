@@ -6,6 +6,5 @@ matplotlib==3.4.2
 python-dotenv==0.19.2
 PyPDF2==1.26.0
 docx==0.2.4
-torch==1.13.1+cpu
 spacy==3.0.0
 en-core-web-sm==3.0.0
